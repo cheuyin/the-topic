@@ -6,14 +6,17 @@
 
 .container {
   width: 80%;
+  font-size: 5vw;
   margin: 10% auto 0 auto;
+  text-align: center;
 }
 
 input#the-topic {
   border: none;
   padding: 20px;
-  font-size: 100px;
+  font-size: inherit;
   text-align: center;
+  text-overflow: ellipsis;
 }
 
 #the-topic:focus {

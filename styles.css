@@ -13,6 +13,14 @@
   font-size: 5vw;
   margin: 10% auto 0 auto;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 input#the-topic {
@@ -22,6 +30,7 @@ input#the-topic {
   text-align: center;
   text-overflow: ellipsis;
   background-color: inherit;
+  border-radius: 10px;
 }
 
 #the-topic:focus {
@@ -31,4 +40,5 @@ input#the-topic {
 
 input#bg-color {
   cursor: pointer;
+  background-color: none;
 }

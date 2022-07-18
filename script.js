@@ -18,3 +18,9 @@ textColor.addEventListener("change", function() {
     label.style.color = this.value;
   })
 })
+
+const font = document.querySelector("#font");
+font.addEventListener("change", function() {
+  const selectedFont = font.value;
+  htmlBody.style.fontFamily = selectedFont;   
+})

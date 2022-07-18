@@ -24,3 +24,8 @@ font.addEventListener("change", function() {
   const selectedFont = font.value;
   htmlBody.style.fontFamily = selectedFont;   
 })
+
+// Confirmation before closing tab
+window.onbeforeunload = function(e) {
+  return 'Are you sure you want to exit?';
+};

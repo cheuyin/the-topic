@@ -12,7 +12,6 @@ body {
 
 .container {
   width: 80%;
-  font-size: 6vw;
   margin: 10% auto 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -52,11 +51,12 @@ label {
 input#the-topic {
   border: none;
   padding: 20px;
-  font-size: inherit;
+  font-size: 12vw;
   text-align: center;
   text-overflow: ellipsis;
   background-color: inherit;
   border-radius: 10px;
+  width: 100%;
 }
 
 #the-topic:focus {

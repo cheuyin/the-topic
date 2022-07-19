@@ -32,6 +32,6 @@ textSize.addEventListener("change", function() {
 })
 
 // Confirmation before closing tab
-// window.onbeforeunload = function(e) {
-//   return 'Are you sure you want to exit?';
-// };
+window.onbeforeunload = function(e) {
+  return 'Are you sure you want to exit?';
+};

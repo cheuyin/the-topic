@@ -25,7 +25,13 @@ font.addEventListener("change", function() {
   htmlBody.style.fontFamily = selectedFont;   
 })
 
+const textSize = document.querySelector("#text-size");
+textSize.addEventListener("change", function() {
+  console.log(topicInput.style.fontSize);
+  topicInput.style.fontSize = this.value + "px";
+})
+
 // Confirmation before closing tab
-window.onbeforeunload = function(e) {
-  return 'Are you sure you want to exit?';
-};
+// window.onbeforeunload = function(e) {
+//   return 'Are you sure you want to exit?';
+// };

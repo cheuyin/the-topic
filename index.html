@@ -20,7 +20,7 @@
 
 <body>
   <div class="container">
-    <input type="text" id="the-topic" placeholder="The Topic">
+    <textarea type="text" id="the-topic" placeholder="The Topic" rows="1"></textarea>
   </div>
   <div class="controls">
     <div class="control">
@@ -41,6 +41,10 @@
         <option>Satisfy</option>
         <option>Roboto Mono</option>
       </select>
+    </div>
+    <div class="control">
+      <label for="text-size">Text Size</label>
+      <input type="range" id="text-size" name="text-size" min="20" value="200" max="400">
     </div>
   </div>
 </body>
